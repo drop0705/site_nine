@@ -1,0 +1,60 @@
+.about {
+	display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    min-width: 282px;
+    margin: 0 auto;
+}
+
+.about__text {
+	max-width: 495px;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.about__text-title {
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 400;
+}
+
+.about__text-subtitle {
+	font-weight: 400;
+    line-height: 25px;
+    max-width: 477px;
+    margin-top: 25px;
+}
+
+.about__logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about__logo-elem {
+  text-align: center; /* Центрирование содержимого, если необходимо */
+  height: 173px;
+}
+
+.last {
+    position: relative;
+    right: 102px;
+}
+
+
+.slider__img-container {
+  width: 301px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  left: 100%;
+  transition: opacity 0.5s ease-in-out, left 0s ease-in-out 0.5s;
+}
+
+
+.slider__img-container.active {
+  opacity: 1;
+  left: 0;
+  transition: opacity 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+
+

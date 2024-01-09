@@ -1,0 +1,77 @@
+.services {
+		max-width: 1170px;
+    min-width: 282px;
+    margin: 0 auto;
+}
+
+.services__title {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 60px;
+}
+
+.services__grid-container {
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr) auto; /* Последний столбец растягивается автоматически */
+  	grid-template-rows: repeat(3, 1fr);
+	gap: 30px; /* Устанавливаем расстояние между элементами (можете изменить по своему усмотрению) */
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 240px;
+}
+
+.grid-element {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.grid-element__logo {
+	padding-right: 15px;
+}
+
+.grid-element__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-element__logo img {
+  max-width: 100%;
+}
+
+.grid-element__title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  transition: margin-top 0.3s ease;
+}
+
+.grid-element__button {
+ 		width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.grid-element:hover .grid-element__button {
+  opacity: 1;
+}
+
+
+/* Чтобы также применить стили при наведении на заголовок, добавим ему класс */
+.grid-element__content:hover .grid-element__button {
+  opacity: 1;
+}
+
+.grid-element__content:hover .grid-element__title {
+  margin-top: -40px;
+}

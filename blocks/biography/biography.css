@@ -1,0 +1,60 @@
+.biography {
+	display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    min-width: 282px;
+    margin: 0 auto;
+    margin-bottom: 240px;
+}
+
+.biography__text {
+	max-width: 603px;
+	padding-top: 50px;
+}
+
+.biography__photo {
+	background: url(../../img/photo.png) no-repeat;
+	height: 640px;
+    width: 486px;
+}
+
+.biography__photo:hover {
+	background: url(../../img/photo_white.png) no-repeat;
+	height: 640px;
+    width: 486px;
+    transition: 0.5s;
+}
+
+
+.biography__text-title {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 25px;
+
+}
+
+.biography__text-subtitle {
+	line-height: 25px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	max-width: 530px;
+}
+
+.button {
+	width: 372px;
+	line-height: 53px;
+	border: solid 1px;
+    /* outline: none; */
+    color: #25427B;
+    background-color: transparent;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.button:hover {
+	background-color: #25427b;
+	color: white;
+}

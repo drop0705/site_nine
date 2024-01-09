@@ -1,0 +1,36 @@
+.money {
+	background-color: #25427B;
+	height: 625px;
+	color: #F5F9FF;
+}
+
+.money-wrapper {
+    max-width: 1170px;
+    min-width: 282px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.money__text {
+	max-width: 610px;
+}
+
+
+.money__title {
+	font-size: 60px;
+	line-height: 72px;
+	font-weight: 400;
+	margin: 140px 0 25px 0;
+}
+
+.money__info {
+	line-height: 25px;
+	margin-bottom: 25px;
+	max-width: 480px;
+}
+
+.money__subtitle {
+	font-size: 32px;
+	line-height: 48px;
+}

@@ -1,0 +1,28 @@
+.profile__post {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	padding-top: 16px;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 300px;
+	margin: 0;
+}
+
+@media screen and (max-width: 710px) {
+	.profile__post {
+		text-align-last: center;
+		font-size: 14px;
+		line-height: 17px;
+		padding-top: 14px;
+		padding-bottom: 22px;
+		word-wrap: break-word;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		max-width: 190px;
+	}
+}

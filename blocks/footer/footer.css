@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+	max-width: 1170px;
+    min-width: 282px;
+    margin: 70px auto;
+}
+
+.footer__emeil {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.footer__phone {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+
+.footer__policy {
+	margin-bottom: 10px;
+}
+
+.footer__messenger {
+	display: flex;
+	margin-top: 20px;
+	gap: 10px;
+	position: relative;
+}
+
+.footer__messenger-tg {
+	width: 50px;
+	height: 50px;
+	background: url(../../img/tg.png) no-repeat;
+}
+
+.footer__messenger-tg:hover {
+	width: 50px;
+	height: 50px;
+	background: url(../../img/TG_dark.png) no-repeat;
+}
+
+
+.footer__messenger-wa {
+	width: 50px;
+	height: 50px;
+	background: url(../../img/wa.png) no-repeat;
+}
+
+.footer__messenger-wa:hover {
+	width: 50px;
+	height: 50px;
+	background: url(../../img/WA_dark.png) no-repeat;
+}

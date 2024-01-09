@@ -1,0 +1,41 @@
+@font-face {
+  src: url(./fonts/Golos-Text/Golos-Text_Black.ttf) format('ttf');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900; /* Жирный шрифт */
+}
+
+@font-face {
+  src: url(./fonts/Golos-Text/Golos-Text_Bold.ttf) format('ttf');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700; /* Полужирный шрифт */
+}
+
+@font-face {
+  src: url(./fonts/Golos-Text/Golos-Text_DemiBold.ttf) format('ttf');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600; /* Полужирный шрифт */
+}
+
+@font-face {
+  src: url(./fonts/Golos-Text/golos-text-medium.ttf) format('ttf');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500; /* Средний (полутощий) шрифт */
+}
+
+@font-face {
+  src: url(./fonts/Golos-Text/Golos-Text_Regular.ttf) format('ttf');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400; /* Обычный шрифт */
+}
+
+@font-face {
+  src: url(./fonts/Golos-Text/Golos-Text_VF.ttf) format('ttf');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300; /* Лёгкий шрифт */
+}

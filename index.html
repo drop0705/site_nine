@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="css/index.css" />
+  <title>9 девять</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo"><img src="./img/logo.png" alt=""></div>
+    <div class="header_nav">
+      <nav class="navigation">
+        <ul>
+          <li><a href="#about">О НАС</a></li>
+          <li><a href="#services">УСЛУГИ</a></li>
+          <li><a href="#cases">КЕЙСЫ</a></li>
+          <li><a href="#cases">ПРОЦЕСС</a></li>
+          <li><a href="#cases">КОНТАКТЫ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about">
+      <div class="about__text">
+        <div class="about__text-title"><b>Знания и опыт,</b> рождающие практические <b>советы и решения</b></div>
+        <div class="about__text-subtitle">Весь комплекс услуг в бухгалтерском сопровождении, финансовом анализе, бизнес аналитике и процессах, а также бизнес планировании. Полное погружение в Ваш бизнес, эффективное использование современных инструментов.</div>
+      </div>
+      <div class="about__logo">
+        <div class="about__logo-elem">
+          <div class="slider">
+            <div class="slider__line">
+              <div class="slider__img-container">
+                <img class="slider__img" src="./img/slaider_2/slaider_2_1.svg" alt="" id="slideshowImg_1">
+              </div>
+              <div class="slider__img-container">
+                <img class="slider__img" src="./img/slaider_2/slaider_2_2.svg" alt="" id="slideshowImg_2">
+              </div>
+              <div class="slider__img-container">
+                <img class="slider__img" src="./img/slaider_2/slaider_2_3.svg" alt="" id="slideshowImg_3">
+              </div>
+              <div class="slider__img-container">
+                <img class="slider__img" src="./img/slaider_2/slaider_2_4.svg" alt="" id="slideshowImg_4">
+              </div>
+              <div class="slider__img-container">
+                <img class="slider__img" src="./img/slaider_2/slaider_2_5.svg" alt="" id="slideshowImg_5">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__logo-elem"><img src="./img/slaider_1/slaider_1_1.svg" alt="" id="slideshowImg_1"></div>
+        <div class="about__logo-elem"><img src="./img/slaider_3/slaider_3_1.svg" alt="" id="slideshowImg_3"></div>
+        <div class="about__logo-elem"><img src="./img/slaider_4/slaider_4_1.svg" alt="" id="slideshowImg_4"></div>
+        <div class="about__logo-elem last" style="grid-column: 2;"><img src="./img/slaider_5/slaider_5_1.svg" alt="" id="slideshowImg_5"></div>
+      </div>
+    </section>
+    <div class="click-mouse">
+      <img src="./img/mouse.png" alt="">
+    </div>
+    <section class="biography">
+      <div class="biography__text">
+        <div class="biography__text-title">Мастерство сопровождения и развития Вашего бизнеса</div>
+        <div class="biography__text-subtitle">Я, Евгений Дробыш, основатель и руководитель агентства «Девять». Я — практик с накопленным опытом в разных отраслях и формах собственности бизнеса. И генератор абстрактных идей, и педантичный внедритель.
+          <br>
+          <br> Миссия моей компании — позволить Вашему бизнесу расти, взяв на себя рутину по его сопровождению. А в случае, когда ваш бизнес справляется с рутиной, но не знает как ему расти, создать план эффективного развития, проанализировав текущую ситуацию.
+          <br>
+          <br> Мое личное участие в сопровождении каждого договора с контрагентами гарантирует результат, который обычно выше ожиданий.
+        </div>
+        <button class="biography__text-button button">Обсудить ваши задачи</button>
+      </div>
+      <div class="biography__photo"></div>
+    </section>
+    <section class="services">
+      <div class="services__title">Что мы делаем для клиентов</div>
+      <div class="services__grid-container">
+        <div class="grid-element">
+          <div class="grid-element__content">
+            <div class="grid-element__logo">
+              <img src="./img/Бухгалтерский учет icon.png" alt="">
+            </div>
+            <div class="grid_element__wrapper">
+              <div class="grid-element__title">Бухгалтерский учет</div>
+              <button class="grid-element__button button" onclick="showPopup('Accounting')">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-element">
+          <div class="grid-element__content">
+            <div class="grid-element__logo">
+              <img src="./img/Налоговый учет icon.png" alt="">
+            </div>
+            <div class="grid_element__wrapper">
+              <div class="grid-element__title">Налоговый учет</div>
+              <button class="grid-element__button button" onclick="showPopup('Tax-accounting')">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-element">
+          <div class="grid-element__content">
+            <div class="grid-element__logo">
+              <img src="./img/Финансовый анализ icon.png" alt="">
+            </div>
+            <div class="grid_element__wrapper">
+              <div class="grid-element__title">Финансовый анализ</div>
+              <button class="grid-element__button button" onclick="showPopup('Financial')">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-element">
+          <div class="grid-element__content">
+            <div class="grid-element__logo">
+              <img src="./img/Бизнес-аналитика icon.png" alt="">
+            </div>
+            <div class="grid_element__wrapper">
+              <div class="grid-element__title">Бизнес-аналитика</div>
+              <button class="grid-element__button button" onclick="showPopup('Business-Analytics')">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-element">
+          <div class="grid-element__content">
+            <div class="grid-element__logo">
+              <img src="./img/Бизнес-процессы iccon.png" alt="">
+            </div>
+            <div class="grid_element__wrapper">
+              <div class="grid-element__title">Бизнес-процессы</div>
+              <button class="grid-element__button button" onclick="showPopup('Business-processes')">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-element">
+          <div class="grid-element__content">
+            <div class="grid-element__logo">
+              <img src="./img/Бизнес-план icon.png" alt="">
+            </div>
+            <div class="grid_element__wrapper">
+              <div class="grid-element__title">Бизнес-план</div>
+              <button class="grid-element__button button" onclick="showPopup('Busines-splan')">Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-element">
+          <div class="grid-element__content">
+            <div class="grid-element__logo">
+              <img src="./img/Юридическое сопровождение  icon.png" alt="">
+            </div>
+            <div class="grid_element__wrapper">
+              <div class="grid-element__title">Юридическое сопровождение</div>
+              <button class="grid-element__button button" onclick="showPopup('Legal-support')">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="popup" id="Accounting">
+      <!-- Содержимое первого попапа -->
+      <div class="popup__text">
+        <div class="popup__text-title">Бухгалтерский учет</div>
+        <div class="close-button" onclick="closePopup('Accounting')"></div>
+        <ul>
+          <li>- Ведение бухгалтерского учета</li>
+          <li>- Разработка и внедрение учетной политики</li>
+          <li>- Расчет зарплаты и учет кадров</li>
+          <li>- Любые формы собственности</li>
+          <li>- Восстановление утраченного учета</li>
+          <li>- Представление интересов в различных инстанциях</li>
+          <li>- Все системы налогообложения</li>
+          <li>- Сдача нулевой отчетности</li>
+          <li>- Регламентация сбора первичных документов</li>
+        </ul>
+      </div>
+      <div class="popup__bcgrnd"></div>
+    </div>
+    <div class="overlay"></div>
+    
+    <div class="popup" id="Tax-accounting">
+      <!-- Содержимое первого попапа -->
+      <div class="popup__text">
+        <div class="popup__text-title">Налоговый учет</div>
+        <div class="close-button" onclick="closePopup('Tax-accounting')"></div>
+        <ul>
+          <li>- Ведение налогового учета</li>
+          <li>- Консультации по оптимальной системе налогообложения</li>
+          <li>- Оперативная реакция на изменение налогового законодательства</li>
+          <li>- Представление интересов в налоговой инспекции</li>
+          <li>- Возврат излишне уплаченных налогов</li>
+          <li>- Консультации по операциям и зонам риска</li>
+          <li>- Подготовка и сдача отчетности</li>
+        </ul>
+      </ul>
+    </div>
+    <div class="popup__bcgrnd"></div>
+  </div>
+  <div class="overlay"></div>
+  
+  <div class="popup" id="Financial">
+    <!-- Содержимое первого попапа -->
+    <div class="popup__text">
+      <div class="popup__text-title">Финансовый анализ</div>
+      <div class="close-button" onclick="closePopup('Financial')"></div>
+      <ul>
+        <li>- Анализ активов и обязательств</li>
+        <li>- Оценка платежеспособности в различных сценариях</li>
+        <li>- Ликвидность</li>
+        <li>- Финансовые результаты и устойчивость</li>
+        <li>- Оборачиваемость активов</li>
+        <li>- Оценка вероятного банкротства</li>
+        <li>- Вертикальный и горизонтальный анализ</li>
+      </ul>
+    </div>
+    <div class="popup__bcgrnd"></div>
+  </div>
+  <div class="overlay"></div>
+
+  <div class="popup" id="Business-Analytics">
+    <!-- Содержимое первого попапа -->
+    <div class="popup__text">
+      <div class="popup__text-title">Бизнес-аналитика</div>
+      <div class="close-button" onclick="closePopup('Business-Analytics')"></div>
+      <ul>
+        <li>- Аналитика, необходимая для построения стратегий</li>
+        <li>- Сбор данных, обработка и построение зависимостей
+        - Аналитика данных, связанных с организационной стр</li>
+        <li>-  Корреляционный и регрессионный анализ</li>
+        <li>- Дисперсионный и качественный анализ</li>
+        <li>- Кластерный анализ</li>
+        <li>- Методы описательной статистики</li>
+        <li>- Определение проблем и возможностей компании</li>
+      </ul>
+    </div>
+    <div class="popup__bcgrnd"></div>
+  </div>
+  <div class="overlay"></div>
+
+  <div class="popup" id="Business-processes">
+    <!-- Содержимое первого попапа -->
+    <div class="popup__text">
+      <div class="popup__text-title">Бизнес-процессы</div>
+      <div class="close-button" onclick="closePopup('Business-processes')"></div>
+      <ul>
+        <li>- Оценка процессов</li>
+        <li>- Моделирование</li>
+        <li>- Оптимизация эффективности</li>
+        <li>- Внедрение автоматизации</li>
+        <li>- Независимый подход к проблеме</li>
+        <li>- Формирование механизмов для оптимизации ресурсов</li>
+      </ul>
+    </div>
+    <div class="popup__bcgrnd"></div>
+  </div>
+  <div class="overlay"></div>
+
+  <div class="popup" id="Busines-splan">
+    <!-- Содержимое первого попапа -->
+    <div class="popup__text">
+      <div class="popup__text-title">Бизнес-план</div>
+      <div class="close-button" onclick="closePopup('Busines-splan')"></div>
+      <ul>
+        <li>- Информация о компании</li>
+        <li>- Анализ рынка</li>
+        <li>- Организация и менеджмент</li>
+        <li>- Услуги и продукты</li>
+        <li>- Маркетинг и продажи</li>
+        <li>- Финансирование</li>
+        <li>- Финансовые прогнозы</li>
+        <li>- Резюме проекта.
+          <br>
+          <br>
+        У вас есть возможность заказать отдельный раздел или Бизнес-План полностью</li>
+      </ul>
+    </div>
+    <div class="popup__bcgrnd"></div>
+  </div>
+  <div class="overlay"></div>
+  
+  <div class="popup" id="Legal-support">
+    <!-- Содержимое первого попапа -->
+    <div class="popup__text">
+      <div class="popup__text-title">Юридическое сопровождение</div>
+      <div class="close-button" onclick="closePopup('Legal-support')"></div>
+      <ul>
+        <li>- Экспертиза Договоров</li>
+        <li>- Создание Договоров и их контроль на изменения законодательства</li>
+        <li>- Претензионная и предарбитражная практика</li>
+        <li>- Представление в арбитраже</li>
+        <li>- Юридические консультации по административно-хозяйственной деятельности</li>
+      </ul>
+    </div>
+    <div class="popup__bcgrnd"></div>
+  </div>
+  <div class="overlay"></div>
+
+
+
+  <section class="accomplishments">
+    <div class="accomplishments__title">Что уже сделано</div>
+    <div class="accomplishments__grid-photocontainer">
+
+      <div class="grid-photocontainer__elem large">
+        <div class="block_wrapper">
+          <div class="block">
+            <div class="text-container">
+              <h3>Российская компания</h3>
+              <p>Создание и внедрение коммерческой политики производственно-торговой компании.</p>
+            </div>
+            <div class="image-container">
+              <img src="./img/img.png" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-photocontainer__elem large">
+        <div class="block_wrapper">
+          <div class="block">
+            <div class="text-container">
+              <h3>Белорусская компания</h3>
+              <p>Создание технического задания и успешное внедрение программы автоматизации в производственной компании.</p>
+            </div>
+            <div class="image-container">
+              <img src="./img/img (1).png" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-photocontainer__elem medium-extra">
+        <div class="block_wrapper">
+          <div class="block medium-width">
+            <div class="text-container medium-width">
+              <h3>Агенство недвижимости в Санкт-Петербурге</h3>
+              <p>Анализ финансовых потоков. В результате применения рекомендаций — увеличение чистой прибыли на 8,5% без изменения показателей основной деятельности.</p>
+            </div>
+            <div class="image-container">
+              <img src="./img/img (2).png" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-photocontainer__elem double-large">
+        <div class="block_wrapper">
+          <div class="block medium-width">
+            <div class="text-container medium-width">
+              <h3>Белорусская производственная компания</h3>
+              <p>Создание технико-экономического обоснования бизнес-проекта и успешное получение кредита на закупку оборудования.</p>
+            </div>
+            <div class="image-container">
+              <img src="./img/img (3).png" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-photocontainer__elem extra-large">
+        <div class="block_wrapper">
+          <div class="block">
+            <div class="text-container">
+              <h3>Столярная мастерская</h3>
+              <p>Бухгалтерское сопровождение. Юридическая консультация. Представительство в арбитражном суде Санкт-Петербурге и ЛО.</p>
+            </div>
+            <div class="image-container">
+              <img src="./img/img (4).png" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-photocontainer__elem medium">
+        <div class="block_wrapper last-slide">
+          <div class="block">
+            <div class="text-container">
+              <h3>Множество других проектов</h3>
+              <p>Свяжитесь с нами, и мы расскажем о деталях и результатах всех своих проектов, над которыми работали.</p>
+            </div>
+            <div class="image-container">
+              <img src="./img/plus1.png" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="starting">
+      <div class="starting__title">
+        <div class="starting__title-text">Как начать работать</div>
+        <div class="starting__title-logo"><img src="./img/Frame 31.png" alt=""></div>
+      </div>
+      <div class="starting__more">
+        <img class="starting__line" src="./img/line.png" alt="">
+        <div class="starting__line-block">
+          <div class="starting__more-elem">
+            <div class="starting__more-header">Знакомство</div>
+            <div class="starting__more-info">При первом обращении узнаем о сути проблемы и текущей ситуации. Обсуждаем возможные и необходимые услуги и инструменты. Определяем приоритеты и возможные сроки решения задач</div>
+          </div>
+          <div class="starting__more-elem">
+            <div class="starting__more-header">Запрос информации</div>
+            <div class="starting__more-info">Формируем массив необходимых данных для расчета стоимости и сроков предоставления услуг
+            </div>
+          </div>
+          <div class="starting__more-elem">
+            <div class="starting__more-header">Анализ</div>
+            <div class="starting__more-info">На основании полученной информации производим расчет стоимости и сроков выполнения услуг, а также набора необходимых инструментов. Формируем коммерческое предложение</div>
+          </div>
+          <div class="starting__more-elem starting__more-elem_last">
+            <div class="starting__more-header">Начало работы</div>
+            <div class="starting__more-info">Согласование коммерческого предложения. Заключение договора</div>
+          </div>
+          <button class="starting__more-button button">Начать с бесплатной консультации</button>
+        </div>
+      </div>
+    </section>
+    <section class="money">
+      <div class="money-wrapper">
+        <div class="money__text">
+          <div class="money__title">Деньги стоят денег</div>
+          <div class="money__info">Для нас нет двух одинаковых задач, компаний или схожих проектов. Каждое обращение к нам — индивидуально и требует особого внимания к деталям. Но результат нашей работы всегда один: Деньги! Экономя на анализе бизнеса, теряешь деньги!
+            <br>
+            <br>Превращаем свои знания в Ваш результат!</div>
+            <div class="money__subtitle">Пора пересчитать деньги!</div>
+          </div>
+          <div class="money__background"><img src="./img/vector.png" alt=""></div>
+        </div>
+      </section>
+    </main>
+    <div class="footer">
+      <div class="footer-column">
+        <div class="footer__emeil">info@9consult.ru</div>
+        <div class="footer__messenger">
+          <div class="footer__messenger-tg"></div>
+          <div class="footer__messenger-wa"></div>
+        </div>
+      </div>
+      <div class="footer-column">
+        <div class="footer__phone">(812) 96 444 69</div>
+        <div class="footer__policy">Политика конфиденциальности</div>
+        <div class="footer__copyright">© 2023. Все права защищены</div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/script.js"></script>
+
+  </html>
